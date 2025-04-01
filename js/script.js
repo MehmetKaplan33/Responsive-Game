@@ -11,3 +11,10 @@ document.querySelectorAll('.questions__accordion').forEach(accordion => {
         accordion.classList.toggle('active');
       });
     });
+
+const menuBtn = document.querySelector('#menu-btn');
+const navList = document.querySelector('.header__nav-list');
+
+menuBtn.addEventListener('click', () => {
+    navList.style.display = navList.style.display === 'flex' ? 'none' : 'flex';
+});

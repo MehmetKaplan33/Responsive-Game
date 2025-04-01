@@ -101,6 +101,15 @@ body {
 @media screen and (max-width: 768px) {
   .header__nav-list {
     display: none;
+    position: absolute;
+    top: 100px;
+    left: 0;
+    right: 0;
+    background: #6f7dfb;
+    flex-direction: column;
+    padding: 2rem;
+    gap: 2rem;
+    z-index: 100;
   }
 }
 .header__nav-link {
